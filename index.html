@@ -20,46 +20,24 @@
     <!-- BODY -->
     <header>
       <!-- HEADER -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-6 p-0">
-            <nav class="navbar bg-body-tertiary p-0 h-100">
-              <div class="container bg-dark h-100">
-                <a class="navbar-brand" href="#">
-                  <img src="./img/duck.png" alt="Bootstrap" width="30" height="30">
-                </a>
-              </div>
-            </nav>
-          </div>
-          <div class="col-6 p-0">
-            <div
-          class="collapse"
-          id="navbarToggleExternalContent"
-          data-bs-theme="dark"
-        >
-          <div class="bg-dark p-4">
-            <h5 class="text-body-emphasis h4">Collapsed content</h5>
-            <span class="text-body-secondary"
-              >Toggleable via the navbar brand.</span
-            >
-          </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand" href="#">
+            <img src="./img/duck.png" alt="Bootstrap" width="30" height="30" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-  
-        <nav class="navbar navbar-dark bg-dark">
-          <div class="container-fluid justify-content-end">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarToggleExternalContent"
-              aria-controls="navbarToggleExternalContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </nav>
+      </nav>
       </header>
 
       <!-- MAIN -->
