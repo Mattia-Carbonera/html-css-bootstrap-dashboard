@@ -47,6 +47,125 @@
     </header>
 
     <!-- MAIN -->
+    <div class="container py-3">
+      <h1>Nuovo Libro</h1>
+      <form class="row py-4">
+        <div class="mb-3 col-6">
+          <label for="exampleInputName" class="form-label">Nome Autore</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputName"
+            aria-describedby="emailHelp"
+            placeholder="Inserisci il nome"
+          />
+          <!-- <div id="emailHelp" class="form-text">
+            Lorem
+          </div> -->
+        </div>
+
+        <div class="mb-3 col-6">
+          <label for="exampleInputName" class="form-label"
+            >Cognome Autore</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputName"
+            aria-describedby="emailHelp"
+            placeholder="Inserisci il cognome"
+          />
+          <!-- <div id="emailHelp" class="form-text">
+            Lorem
+          </div> -->
+        </div>
+
+        <div class="mb-3 col-12">
+          <label for="exampleInputBook" class="form-label">Titolo</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputBook"
+            aria-describedby="emailHelp"
+            placeholder="Inserisci il titolo del libro"
+          />
+          <div id="emailHelp" class="form-text">Titolo versione italiana</div>
+        </div>
+
+        <div class="mb-3 col-12">
+          <select class="form-select" aria-label="Default select">
+            <option selected>Scegli il genere</option>
+            <option value="1">Criminale</option>
+            <option value="2">Romantico</option>
+            <option value="3">Fantasy</option>
+          </select>
+        </div>
+
+        <div class="mb-3 col-12">
+          <label for="exampleInputYear" class="form-label"
+            >Anno di Pubblicazione</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputYear"
+            aria-describedby="emailHelp"
+            placeholder="Inserisci l'anno"
+          />
+        </div>
+
+        <div class="mb-3 col-12">
+          <label for="exampleInputCode" class="form-label">ISBN#</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputCode"
+            aria-describedby="emailHelp"
+            placeholder="Inserisci il codice ISBN#"
+          />
+        </div>
+
+        <div class="mb-3 col-12 pt-3">
+          <hr />
+        </div>
+
+        <div class="mb-3 col-12">
+          <label for="textArea" class="form-label">Note</label>
+          <textarea
+            class="form-control"
+            id="textArea"
+            rows="3"
+            placeholder="Inserisci eventuali note sul libro"
+          ></textarea>
+        </div>
+
+        <div class="mb-3 col-12">
+          <input type="checkbox" />
+          <label for="checkbox">Disponibile anche in digitale</label>
+        </div>
+
+        <div class="mb-3 col-12">
+          <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+        </div>
+
+        <!-- altro -->
+        <!-- <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div> -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
 
     <!-- bootstrap js -->
     <script
